@@ -1,6 +1,6 @@
 # cl-svg-demo
 
-Demo repository for [cl-djula-svg](github.com/rajasegar/cl-djula-svg)
+Demo repository for [cl-djula-svg](https://github.com/rajasegar/cl-djula-svg)
 
 Blog post is [here](https://dev.to/rajasegar/using-svgs-in-common-lisp-web-apps-with-djula-5f00)
 
