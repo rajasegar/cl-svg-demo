@@ -1,0 +1,37 @@
+{% extends "layouts/default.html" %}
+{% block title %}cl-djula-svg demo {% endblock %}
+{% block content %}
+<div id="main">
+	<h1>cl-djula-svg</h1>
+	<p>A Common Lisp package that will help process SVG files and copy them to folders so that they can be used in Djula templates in a Caveman web application framework.</p>
+	<h2>width and height</h2>
+	<div class="flex">
+		<div>
+			{% include "svgs/airplanes-engine-fill.svg" :width 128 :height 128 %}
+		</div>
+		<div>
+			{% include "svgs/airplanes-engine-fill.svg" :width 64 :height 64 %}
+		</div>
+		<div>
+			{% include "svgs/airplanes-engine-fill.svg" :width 32 :height 32 %}
+		</div>
+	</div>
+	<h2>fill</h2>
+	<div class="flex">
+		<div>
+			{% include "svgs/airplanes-engine-fill.svg" :width 128 :height 128 :fill "purple" %}
+		</div>
+		<div style="color:green">
+			{% include "svgs/airplanes-engine-fill.svg" :width 64 :height 64 %}
+		</div>
+		<div style="color:blue">
+			{% include "svgs/airplanes-engine-fill.svg" :width 32 :height 32 %}
+		</div>
+		</div>
+	<h2>class</h2>
+			<div>
+			{% include "svgs/airplanes-engine-fill.svg" :width 128 :height 128 :class "fill-red" %}
+		</div>
+
+	</div>
+	{% endblock %}
